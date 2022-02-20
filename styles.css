@@ -7,11 +7,17 @@ body{
     background-color: #eee;
     margin: 40px;
     word-wrap: break-word;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .hyperlink{
+    color: rgb(75, 77, 156);
+    text-decoration:none;
+}
 
+.hyperlink:hover{
+    color:blue;
+    text-decoration:underline;
 }
 
 footer{
@@ -19,15 +25,8 @@ footer{
     background-color: #eee;
     margin: 40px;
     word-wrap: break-word;
-    font-size: large;
+    font-size: medium;
     text-align: center;
-}
-
-box{
-    width: 400px;
-    height: 250px;
-    float: left;
-    padding: 0px 40px 80px 0px;
 }
 
 h3{
